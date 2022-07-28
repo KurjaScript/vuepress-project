@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  },
+  "name": "kupress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  }
+}
